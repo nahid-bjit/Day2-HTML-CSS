@@ -1,0 +1,76 @@
+.section-1 {
+    margin-bottom: 20px;
+}
+.banner-div {
+    width: 100%;
+    height: 500px;
+    background-image: url(photo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.banner-div h1 {
+    color: white;
+    font-size: 40px;
+}
+
+table {
+    border: 1px solid black;
+    width: 80%;
+}
+
+.section-3 {
+    margin-top: 20px;
+}
+
+.parent-div {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magic-div {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+0%   {background-color:tomato; left:0px; top:0px;}
+25%  {background-color:maroon; left:200px; top:0px;}
+50%  {background-color:tomato; left:0px; top:0px;}
+75%  {background-color:maroon; left: 200px; top:0px;}
+100% {background-color:tomato; left:0px; top:0px;}
+}
+
+iframe {
+    border: 5px solid tomato;
+}
+
+table {
+    border: 1px solid tomato;
+}
+
+/* Day 03 CSS starts here  */
+
+.day-3 {
+    margin-top: 20px;
+}
+
+
+
